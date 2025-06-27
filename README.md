@@ -9,11 +9,12 @@ This database system is designed to manage:
 - Applying aggregate functions on numeric columns.
 - Using GROUP BY to categorize the data.
 - Using HAVING to filters the group.
+  
 The goal is to build a well-structured, normalized schema using SQL with aggregate functions.
 
 This project is part of my learning and internship submission, aimed at demonstrating my understanding of database design concepts.
 
-📌 Tables:
+# 📌 Tables:
 
 - Students
 - Courses
@@ -58,8 +59,8 @@ Inserting the data
 --Inserting the data in Student table
 
 Insert into students (StudentID, Name, Email,DOB) 
-values (1,'Kajal Patel', 'kajal4344@gmail.com','2002-07-20'),
-(2,'Naved Ahmad','naved2345@gmail.com','2000-08-23');
+values (1,'Zanib Khan', 'zanib9482@gmail.com','2003-07-12'),
+(2,'Kajal Patel','kajal2345@gmail.com','2002-07-20');
 
 --Inserting the data in Courses table
 
